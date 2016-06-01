@@ -5,8 +5,8 @@
         <description>Jekyll Bootstrap - Name Lastname</description>
         <link>http://username.github.io</link>
         <atom:link href="http://username.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 02 Jun 2016 06:53:16 +0900</lastBuildDate>
-        <pubDate>Thu, 02 Jun 2016 06:53:16 +0900</pubDate>
+        <lastBuildDate>Thu, 02 Jun 2016 06:56:04 +0900</lastBuildDate>
+        <pubDate>Thu, 02 Jun 2016 06:56:04 +0900</pubDate>
         <ttl>60</ttl>
 
 
@@ -45,7 +45,7 @@ $ git push origin master --force or git push origin master -f
   git remote -v 명령어로 추가된 정보를 볼 수 있다.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;**git push origin master **
+    &lt;p&gt;&lt;strong&gt;git push origin master&lt;/strong&gt;
   원격 서버에 업로드 한다.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
