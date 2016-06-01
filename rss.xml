@@ -5,10 +5,56 @@
         <description>Jekyll Bootstrap - Name Lastname</description>
         <link>http://username.github.io</link>
         <atom:link href="http://username.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 02 Jun 2016 06:01:35 +0900</lastBuildDate>
-        <pubDate>Thu, 02 Jun 2016 06:01:35 +0900</pubDate>
+        <lastBuildDate>Thu, 02 Jun 2016 06:53:16 +0900</lastBuildDate>
+        <pubDate>Thu, 02 Jun 2016 06:53:16 +0900</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>github 사용법</title>
+                <description>
+&lt;p&gt;리눅스 환경에서 git 사용법에 대해서 간략히 설명한다. 추후 로컬 환경 구축시 유용한 자료가 될것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;git--------&quot;&gt;서버에 이미 git 레포지토리가 존재 하고 그 환경을 로컬에서 구성할 때&lt;/h3&gt;
+
+&lt;p&gt;아래의 명령어를 순차적으로 수행:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ git init
+$ git add * or git add index.html
+$ git commit -m &#39;comment here&#39;
+$ git remote add origin &amp;lt;원격 서버 주소&amp;gt;
+$ git push origin master --force or git push origin master -f
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;git init&lt;/strong&gt;
+  .git 디랙토리를 만들어 git 환경을 구성한다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;git add&lt;/strong&gt;
+  head에 파일을 추가한다. 로컬에만 반영됨.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;git commit&lt;/strong&gt;
+  head에 파일을 추가한다. 실제로 반영됨.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;git remote add orgin&lt;/strong&gt;
+  git 환경파일에 원셕 서버 정보를 등록한다.	
+  git remote -v 명령어로 추가된 정보를 볼 수 있다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;**git push origin master **
+  원격 서버에 업로드 한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+                <link>http://username.github.io/lessons/2016/06/02/08-posting</link>
+                <guid>http://username.github.io/lessons/2016/06/02/08-posting</guid>
+                <pubDate>Thu, 02 Jun 2016 00:00:00 +0900</pubDate>
+        </item>
 
         <item>
                 <title>two posting</title>
