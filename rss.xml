@@ -1,27 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-        <title>Jekyll Bootstrap</title>
-        <description>Jekyll Bootstrap - Name Lastname</description>
-        <link>http://username.github.io</link>
-        <atom:link href="http://username.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Thu, 02 Jun 2016 06:56:04 +0900</lastBuildDate>
-        <pubDate>Thu, 02 Jun 2016 06:56:04 +0900</pubDate>
+        <title>Bong</title>
+        <description>Bong - Bong.gi Choi</description>
+        <link>http://bgchoi.github.io</link>
+        <atom:link href="http://bgchoi.github.io/rss.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Sun, 29 Jan 2017 14:30:19 +0900</lastBuildDate>
+        <pubDate>Sun, 29 Jan 2017 14:30:19 +0900</pubDate>
         <ttl>60</ttl>
 
+
+        <item>
+                <title>bootstrap sample</title>
+                <description>
+&lt;p&gt;뭐하지333??&lt;/p&gt;
+
+&lt;h1 id=&quot;항목-1&quot;&gt;항목 1&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;ddd&lt;/li&gt;
+  &lt;li&gt;aaa&lt;/li&gt;
+  &lt;li&gt;333&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;항목-2&quot;&gt;항목 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;항목-3&quot;&gt;항목 3&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 aa(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;2 bb(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;3 cc(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;4 dd(&amp;lt;li&amp;gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;이것은 스트롱으로 &lt;code&gt;표시&lt;/code&gt;됩니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;링크는 이렇게 사용됩니다. After &lt;a href=&quot;/index.html#start-now&quot;&gt;installing jekyll&lt;/a&gt; you&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;After [installing jekyll](/index.html#start-now) you
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;이것은 소개글 입니다.(tab이 들어가면 박스가 쳐 집니다.)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ㄸㄸㄷ
+ㄸㄸ
+ㄸㄸ
+ㄷㄹㄷㄹㄷ
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;항목-4&quot;&gt;항목 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;항목-5&quot;&gt;항목 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;항목-6&quot;&gt;항목 6&lt;/h6&gt;
+
+</description>
+                <link>http://bgchoi.github.io/2016/06/03/06-posting</link>
+                <guid>http://bgchoi.github.io/2016/06/03/06-posting</guid>
+                <pubDate>Fri, 03 Jun 2016 00:00:00 +0900</pubDate>
+        </item>
 
         <item>
                 <title>github 사용법</title>
                 <description>
 &lt;p&gt;리눅스 환경에서 git 사용법에 대해서 간략히 설명한다. 추후 로컬 환경 구축시 유용한 자료가 될것이다.&lt;/p&gt;
 
-&lt;h3 id=&quot;git--------&quot;&gt;서버에 이미 git 레포지토리가 존재 하고 그 환경을 로컬에서 구성할 때&lt;/h3&gt;
+&lt;h3 id=&quot;서버에-이미-git-레포지토리가-존재-하고-그-환경을-로컬에서-구성할-때&quot;&gt;서버에 이미 git 레포지토리가 존재 하고 그 환경을 로컬에서 구성할 때&lt;/h3&gt;
 
 &lt;p&gt;아래의 명령어를 순차적으로 수행:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ git init
 $ git add * or git add index.html
-$ git commit -m &#39;comment here&#39;
+$ git commit -m 'comment here'
 $ git remote add origin &amp;lt;원격 서버 주소&amp;gt;
 $ git push origin master --force or git push origin master -f
 &lt;/code&gt;&lt;/pre&gt;
@@ -51,8 +100,8 @@ $ git push origin master --force or git push origin master -f
 &lt;/ul&gt;
 
 </description>
-                <link>http://username.github.io/lessons/2016/06/02/08-posting</link>
-                <guid>http://username.github.io/lessons/2016/06/02/08-posting</guid>
+                <link>http://bgchoi.github.io/lessons/2016/06/02/08-posting</link>
+                <guid>http://bgchoi.github.io/lessons/2016/06/02/08-posting</guid>
                 <pubDate>Thu, 02 Jun 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -60,8 +109,8 @@ $ git push origin master --force or git push origin master -f
                 <title>two posting</title>
                 <description>
 </description>
-                <link>http://username.github.io/2016/05/27/two-posting</link>
-                <guid>http://username.github.io/2016/05/27/two-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/two-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/two-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -69,8 +118,8 @@ $ git push origin master --force or git push origin master -f
                 <title>three posting</title>
                 <description>
 </description>
-                <link>http://username.github.io/2016/05/27/three-posting</link>
-                <guid>http://username.github.io/2016/05/27/three-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/three-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/three-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -78,8 +127,8 @@ $ git push origin master --force or git push origin master -f
                 <title>six posting</title>
                 <description>
 </description>
-                <link>http://username.github.io/2016/05/27/six-posting</link>
-                <guid>http://username.github.io/2016/05/27/six-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/six-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/six-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -87,8 +136,8 @@ $ git push origin master --force or git push origin master -f
                 <title>for posting</title>
                 <description>
 </description>
-                <link>http://username.github.io/2016/05/27/for-posting</link>
-                <guid>http://username.github.io/2016/05/27/for-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/for-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/for-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -96,8 +145,8 @@ $ git push origin master --force or git push origin master -f
                 <title>five posting</title>
                 <description>
 </description>
-                <link>http://username.github.io/2016/05/27/five-posting</link>
-                <guid>http://username.github.io/2016/05/27/five-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/five-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/five-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -114,21 +163,21 @@ Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jeky
 &lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
 dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;이미지 유형 1&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-1&quot;&gt;이미지 유형 1&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-rounded&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;이미지 유형 2&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-2&quot;&gt;이미지 유형 2&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-circle&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;이미지 유형 3&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-3&quot;&gt;이미지 유형 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-thumbnail&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 </description>
-                <link>http://username.github.io/2016/05/27/first-posting</link>
-                <guid>http://username.github.io/2016/05/27/first-posting</guid>
+                <link>http://bgchoi.github.io/2016/05/27/first-posting</link>
+                <guid>http://bgchoi.github.io/2016/05/27/first-posting</guid>
                 <pubDate>Fri, 27 May 2016 00:00:00 +0900</pubDate>
         </item>
 
@@ -550,8 +599,8 @@ As noted, our main programming constraint is the fact that our API is limited to
 &lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>http://bgchoi.github.io/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>http://bgchoi.github.io/lessons/2011/12/29/jekyll-introduction</guid>
                 <pubDate>Thu, 29 Dec 2011 00:00:00 +0900</pubDate>
         </item>
 

@@ -1,32 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
- <link href="http://username.github.io/atom.xml" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2016-06-02T06:56:04+09:00</updated>
- <id>http://username.github.io</id>
+ <title>Bong</title>
+ <link href="http://bgchoi.github.io/atom.xml" rel="self"/>
+ <link href="http://bgchoi.github.io"/>
+ <updated>2017-01-29T14:30:19+09:00</updated>
+ <id>http://bgchoi.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Bong.gi Choi</name>
+   <email>hamal0381@gmail.com</email>
  </author>
 
  
  <entry>
+   <title>bootstrap sample</title>
+   <link href="http://bgchoi.github.io/2016/06/03/06-posting"/>
+   <updated>2016-06-03T00:00:00+09:00</updated>
+   <id>http://bgchoi.github.io/2016/06/03/06-posting</id>
+   <content type="html">
+&lt;p&gt;뭐하지333??&lt;/p&gt;
+
+&lt;h1 id=&quot;항목-1&quot;&gt;항목 1&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;ddd&lt;/li&gt;
+  &lt;li&gt;aaa&lt;/li&gt;
+  &lt;li&gt;333&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;항목-2&quot;&gt;항목 2&lt;/h2&gt;
+
+&lt;h3 id=&quot;항목-3&quot;&gt;항목 3&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;1 aa(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;2 bb(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;3 cc(&amp;lt;li&amp;gt;)&lt;/li&gt;
+  &lt;li&gt;4 dd(&amp;lt;li&amp;gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;이것은 스트롱으로 &lt;code&gt;표시&lt;/code&gt;됩니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;링크는 이렇게 사용됩니다. After &lt;a href=&quot;/index.html#start-now&quot;&gt;installing jekyll&lt;/a&gt; you&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;After [installing jekyll](/index.html#start-now) you
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;이것은 소개글 입니다.(tab이 들어가면 박스가 쳐 집니다.)&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ㄸㄸㄷ
+ㄸㄸ
+ㄸㄸ
+ㄷㄹㄷㄹㄷ
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;항목-4&quot;&gt;항목 4&lt;/h4&gt;
+
+&lt;h5 id=&quot;항목-5&quot;&gt;항목 5&lt;/h5&gt;
+
+&lt;h6 id=&quot;항목-6&quot;&gt;항목 6&lt;/h6&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>github 사용법</title>
-   <link href="http://username.github.io/lessons/2016/06/02/08-posting"/>
+   <link href="http://bgchoi.github.io/lessons/2016/06/02/08-posting"/>
    <updated>2016-06-02T00:00:00+09:00</updated>
-   <id>http://username.github.io/lessons/2016/06/02/08-posting</id>
+   <id>http://bgchoi.github.io/lessons/2016/06/02/08-posting</id>
    <content type="html">
 &lt;p&gt;리눅스 환경에서 git 사용법에 대해서 간략히 설명한다. 추후 로컬 환경 구축시 유용한 자료가 될것이다.&lt;/p&gt;
 
-&lt;h3 id=&quot;git--------&quot;&gt;서버에 이미 git 레포지토리가 존재 하고 그 환경을 로컬에서 구성할 때&lt;/h3&gt;
+&lt;h3 id=&quot;서버에-이미-git-레포지토리가-존재-하고-그-환경을-로컬에서-구성할-때&quot;&gt;서버에 이미 git 레포지토리가 존재 하고 그 환경을 로컬에서 구성할 때&lt;/h3&gt;
 
 &lt;p&gt;아래의 명령어를 순차적으로 수행:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;$ git init
 $ git add * or git add index.html
-$ git commit -m &#39;comment here&#39;
+$ git commit -m 'comment here'
 $ git remote add origin &amp;lt;원격 서버 주소&amp;gt;
 $ git push origin master --force or git push origin master -f
 &lt;/code&gt;&lt;/pre&gt;
@@ -60,54 +109,54 @@ $ git push origin master --force or git push origin master -f
  
  <entry>
    <title>two posting</title>
-   <link href="http://username.github.io/2016/05/27/two-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/two-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/two-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/two-posting</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>three posting</title>
-   <link href="http://username.github.io/2016/05/27/three-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/three-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/three-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/three-posting</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>six posting</title>
-   <link href="http://username.github.io/2016/05/27/six-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/six-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/six-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/six-posting</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>for posting</title>
-   <link href="http://username.github.io/2016/05/27/for-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/for-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/for-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/for-posting</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>five posting</title>
-   <link href="http://username.github.io/2016/05/27/five-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/five-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/five-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/five-posting</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>첫번째 포스팅</title>
-   <link href="http://username.github.io/2016/05/27/first-posting"/>
+   <link href="http://bgchoi.github.io/2016/05/27/first-posting"/>
    <updated>2016-05-27T00:00:00+09:00</updated>
-   <id>http://username.github.io/2016/05/27/first-posting</id>
+   <id>http://bgchoi.github.io/2016/05/27/first-posting</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
@@ -119,15 +168,15 @@ Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jeky
 &lt;p&gt;Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
 dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;이미지 유형 1&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-1&quot;&gt;이미지 유형 1&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-rounded&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;이미지 유형 2&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-2&quot;&gt;이미지 유형 2&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-circle&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;이미지 유형 3&lt;/h2&gt;
+&lt;h2 id=&quot;이미지-유형-3&quot;&gt;이미지 유형 3&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/themes/bootstrap-3/bong/images/sample.jpg&quot; class=&quot;img-thumbnail&quot; alt=&quot;title for image&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
@@ -136,9 +185,9 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://bgchoi.github.io/lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+09:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://bgchoi.github.io/lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
